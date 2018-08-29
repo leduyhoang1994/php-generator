@@ -18,4 +18,4 @@ require __DIR__ . '/fixtures/classes.php71.php';
 $res[] = ClassType::from(ClassA::class);
 $res[] = ClassType::from(ClassB::class);
 
-Assert::matchFile(__DIR__ . '/ClassType.from.php71.expect', implode("\n", $res));
+Assert::matchFile(__DIR__ . '/expected/ClassType.from.php71.expect', implode("\n", $res));

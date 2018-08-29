@@ -97,7 +97,7 @@ $method->addParameter('res', null)
 		->setReference(true)
 		->setTypeHint('array');
 
-Assert::matchFile(__DIR__ . '/expected/ClassType.expect', (string) $class);
+sameFile(__DIR__ . '/expected/ClassType.expect', (string) $class);
 
 
 // global setters & getters
