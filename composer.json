@@ -19,7 +19,7 @@
 		"nette/utils": "^2.4.2 || ~3.0.0"
 	},
 	"require-dev": {
-		"nette/tester": "^2.0",
+		"nette/tester": "^2.2",
 		"tracy/tracy": "^2.3"
 	},
 	"conflict": {
